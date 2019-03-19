@@ -21,6 +21,7 @@ class Students:
 student1 = Students("mari", "avazashvili", 22, 255, "math")
 Students.names(student1)
 Students.bachelor(student1)
+
 student2 = Students("gio", "imerlishvili", 23, 270, "chemistry")
 Students.names(student2)
 Students.bachelor(student2)
