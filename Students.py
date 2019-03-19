@@ -10,7 +10,7 @@ class Students:
     print("hi my name is {}".format(self.name))
 
   def bachelor(self):
-    if self.credits == 240 or self.credits > 240:
+    if self.credits >= 240:
       print("Student {} successfully became bachelor".format(self.name))
       print(self.name,"was studying",self.subject1)
     else:
