@@ -9,7 +9,7 @@ class Duel:
     self.name = name
 
   def weapon(self):
-    print(self.name,"shot first with",Duel.weapons[rd.randrange(2)])
+    print(self.name,"shot first with",rd.choice(Duel.weapons))
 
 
   def countdown(self):
